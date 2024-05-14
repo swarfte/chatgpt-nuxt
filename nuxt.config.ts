@@ -65,4 +65,7 @@ export default defineNuxtConfig({
   },
   ssr: false,
   devtools: { enabled: false },
+  alias: {
+    pinia: "/node_modules/@pinia/nuxt/node_modules/pinia/dist/pinia.mjs",
+  },
 });
